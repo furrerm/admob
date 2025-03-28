@@ -21,10 +21,10 @@ let package = Package(
                 .product(name: "Cordova", package: "capacitor-swift-pm"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
             ],
-            path: "ios/Sources/AdMobPlugin"),
+            path: "ios/Plugin"),
         .testTarget(
             name: "AdMobPluginTests",
             dependencies: ["AdMobPlugin"],
-            path: "ios/Tests/AdMobPluginTests")
+            path: "ios/Tests")
     ]
 )
